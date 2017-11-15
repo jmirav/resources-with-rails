@@ -55,12 +55,13 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
 # Include gem wdm
 gem 'wdm', '>=0.1.0' if Gem.win_platform?
-
 # Installing devise
 gem 'devise'
-
 # Install Bootstrap
 gem 'bootstrap', '~> 4.0.0.beta2.1'
+# Update Sprockets-Rails
+gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
+# Adding JQuery
+gem 'jquery-rails'
